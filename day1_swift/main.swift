@@ -46,3 +46,19 @@ print(h)
 for i in 1...10{
     print("2 * \(i) = \(2*i)")
 }
+var x0 = Int()
+print(x0)
+var x00 : Int?
+print(x00)
+var sample = "harpreet,rizul,anmol sharma"
+print(sample)
+ sample += " are in group7 "
+print(sample)
+print(sample.uppercased())
+print(sample.lowercased())
+print(sample.hasPrefix("har"))
+print(sample.hasSuffix("ma"))
+print(sample.count)
+print(sample.description)
+print(sample.isEmpty)
+
